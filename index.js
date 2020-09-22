@@ -1,5 +1,6 @@
 // index.js
 $(document).ready(function(){
+
   var getAndDisplayAllTasks = function () {
     $.ajax({
       type: 'GET',
